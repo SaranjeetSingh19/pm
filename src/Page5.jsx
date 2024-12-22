@@ -44,7 +44,6 @@ import img18 from "./assets/imgs/pmImg (18).jpg";
 import img19 from "./assets/imgs/pmImg (19).jpg";
 import img20 from "./assets/imgs/pmImg (20).jpg";
 
-import videoButUsedAdAudioByMakingItOpacity0 from "./assets/vids/sohni.mp4"
 
 
 
@@ -75,7 +74,7 @@ const Page5 = () => {
    // Combine all videos and images into arrays
 const videos = [
   vid1, vid2, vid3, vid4, vid5, vid6, vid7, vid8, vid9, vid10, vid11, vid12,
-  vid13, vid14, vid15, vid16, vid17, vid18, vid19,videoButUsedAdAudioByMakingItOpacity0
+  vid13, vid14, vid15, vid16, vid17, vid18, vid19
 ];
 
 const images = [

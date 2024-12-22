@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import confetti from 'canvas-confetti';
 
+import finalPM from "./assets/imgs/finalPM.jpg";
+
 const Page7 = () => {
   const messages = [
     "Love you Bacchu 😁",
@@ -48,8 +50,15 @@ const Page7 = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-pink-400 via-purple-300 to-indigo-400 flex flex-col items-center justify-center p-4">
-      <div className="bg-white shadow-xl rounded-lg p-6 text-center max-w-md animate-pop-in">
+    <div
+      className="min-h-screen flex flex-col items-center justify-center p-4"
+      style={{
+        backgroundImage: `url(${finalPM})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <div className="bg-white bg-opacity-80 shadow-xl rounded-lg p-6 text-center max-w-md animate-pop-in">
         {!finalMessageShown ? (
           <h1 className="text-xl font-bold text-gray-800 animate-fade-in mb-4">
             {messages.slice(0, currentIndex + 1).map((msg, index) => (

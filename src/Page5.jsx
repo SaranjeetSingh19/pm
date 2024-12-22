@@ -197,12 +197,6 @@ const images = [
       </div>
 
       <div className="absolute bottom-20  flex gap-x-8">
-      <button
-  className=" text-base bg-rose-500 rounded-full px-5 py-1 font-semibold shadow-lg shadow-rose-600 text-white cursor-pointer"
-  onClick={() => window.location.reload()}
->
-  Reload
-</button>
        <button
   className=" text-base bg-rose-500 rounded-full px-5 py-1 font-semibold shadow-lg shadow-rose-600 text-white cursor-pointer"
   onClick={() => navigate("/sixthPage")}
